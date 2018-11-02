@@ -1,0 +1,35 @@
+{
+  "name": "dishpic",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "jest-expo": "~27.0.0",
+    "prettier": "1.14.2",
+    "react-native-scripts": "1.14.0",
+    "react-test-renderer": "16.3.1",
+    "babel-preset-react-native": "~5.0.2"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "expo-font": "^1.0.0",
+    "gandalf-validator": "^1.0.6",
+    "react-native": "~0.55.2",
+    "expo": "^29.0.0",
+    "react": "16.3.1",
+    "react-navigation": "^2.16.0",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^3.4.6"
+  }
+}
